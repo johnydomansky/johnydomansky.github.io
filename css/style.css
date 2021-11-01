@@ -1,10 +1,16 @@
 html {
     background-color: #2F2E41;
-    color: #F2F2F2;
-    font-family: 'Ubuntu', sans-serif;
     background-image: url(../img/background/background-wave.svg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+html,
+body {
+    color: #F2F2F2;
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 header {
@@ -275,7 +281,7 @@ footer {
     margin: auto;
     padding: 10px;
     width: 50%;
-    background-color: #1e1d29;
+    background-color: #232531;
     border-radius: 20px;
     text-align: center;
 }
@@ -353,12 +359,16 @@ footer {
         margin-bottom: 500px;
     }
 
+    .main-section {
+        padding: 20px;
+    }
+
     .about-text-description {
         margin: 10px 5%;
     }
 
-    p {
-        line-height: 1.4rem;
+    .project-title-area {
+        margin: auto;
     }
 
     h1 {
@@ -368,6 +378,39 @@ footer {
     h2 {
         margin-top: 90px;
         font-size: 0.8rem;
+    }
+
+    .project-one-side {
+        margin-right: auto;
+        height: auto;
+    }
+
+    .project-two {
+        margin-left: auto;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .project-description-paragraph {
+        width: 80%;
+    }
+
+    .project-button-position {
+        position: relative;
+        bottom: 15px;
+    }
+
+    #project-img-one {
+        width: 80%;
+    }
+
+    #project-img-two {
+        width: 80%;
+    }
+
+    footer {
+        width: 90%;
+        margin-top: 30px;
     }
 
 }
